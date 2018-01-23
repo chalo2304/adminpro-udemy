@@ -4,7 +4,9 @@ import { FormGroup, FormControl, Validators } from '@angular/forms';
 import { UsuarioService } from '../services/service.index';
 import { Router } from '@angular/router';
 
-declare var swal: any;
+import swal from 'sweetalert';
+
+// declare var swal: any;
 
 declare function ini_plugins();
 @Component({

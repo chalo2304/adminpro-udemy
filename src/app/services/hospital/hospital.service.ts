@@ -4,7 +4,8 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { UsuarioService } from '../usuario/usuario.service';
 
-declare var swal: any;
+import swal from 'sweetalert';
+// declare var swal: any;
 @Injectable()
 export class HospitalService {
 
